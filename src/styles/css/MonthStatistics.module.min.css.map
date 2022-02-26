@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,SAAS,CAAE,IAAI,CAClB",
+    "sources": [
+        "../../pages/MonthStatistics/MonthStatistics.module.scss"
+    ],
+    "names": [],
+    "file": "MonthStatistics.module.min.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,AAAC,CACP,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,KAAK,CAChB,KAAK,CAAE,IAAI,CAEd",
+    "sources": [
+        "../../pages/Home/components/ThisDay/ThisDay.module.scss"
+    ],
+    "names": [],
+    "file": "ThisDay.module.min.css"
+}
