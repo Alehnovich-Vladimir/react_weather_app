@@ -1,94 +1,96 @@
-@import '../../../../styles/variables.scss';
+@import "../../../../styles/variables.scss";
 
 .days {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
-    background: $lite-background;
-    box-shadow: $box-shadow;
-    border-radius: 0 0 $border-radius $border-radius;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  background-color: var(#{--components-background-default});
+  box-shadow: $box-shadow;
+  border-radius: 0 0 $border-radius $border-radius;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    background: rgba(71, 147, 255, 0.2);
-    border-radius: 10px;
-    padding: 10px;
-    width: 149px;
-    transition: 0.3s;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background: var(#{--card-background-default});
+  border-radius: 10px;
+  padding: 10px;
+  width: 149px;
+  transition: 0.3s;
+  cursor: pointer;
 
-    .day {
-        margin-bottom: 7px;
-        font-size: 18px;
-    }
+  .day {
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: var(#{--text-color-default});
+  }
 
-    .day__info {
-        font-size: 14px;
-        margin-bottom: 12px;
-        color: $base-color;
-    }
+  .day__info {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: $base-color;
+  }
 
-    .img {
-        margin-bottom: 12px;
-    }
+  .img {
+    margin-bottom: 12px;
+  }
 
-    .temp__day {
-        font-size: 18px;
-    }
+  .temp__day {
+    font-size: 18px;
+    color: var(#{--text-color-default});
+  }
 
-    .temp__night {
-        font-size: 13px;
-        color: $base-color;
-        margin-bottom: 6px;
-    }
+  .temp__night {
+    font-size: 13px;
+    color: $base-color;
+    margin-bottom: 6px;
+  }
 
-    .info {
-        font-size: 13px;
-        color: $base-color;
-    }
+  .info {
+    font-size: 13px;
+    color: $base-color;
+  }
 
-    &:hover {
-        box-shadow: 0px 3px 20px rgba(147, 144, 144, 0.28);
-    }
+  &:hover {
+    box-shadow: var(#{--card-shadow-default});
+  }
 }
 
 .tabs {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
 }
 
 .cancel,
 .tab {
-    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
-    border-radius: 5px;
-    padding: 9px 20px;
-    background-color: $lite-background;
-    margin-right: 15px;
-    color: $lite-color;
-    font-size: 18px;
-    margin-right: 15px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  border-radius: 5px;
+  padding: 9px 20px;
+  background-color: var(#{--components-background-default});
+  margin-right: 15px;
+  color: var(#{--text-color-default});
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cancel {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .tab {
-    &.active {
-        background: $primary-color;
-        color: #fff;
-    }
+  &.active {
+    background: $primary-color;
+    color: #fff;
+  }
 }
 
 .tabs__wrapper {
-    display: flex;
+  display: flex;
 }
